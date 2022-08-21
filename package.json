@@ -1,0 +1,24 @@
+{
+  "name": "0222-ban-gin-ga-kei-no-a-zu-ma-ri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsumimusu/0222-ban-gin-ga-kei-no-a-zu-ma-ri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matsumimusu/0222-ban-gin-ga-kei-no-a-zu-ma-ri/issues"
+  },
+  "homepage": "https://github.com/matsumimusu/0222-ban-gin-ga-kei-no-a-zu-ma-ri#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
