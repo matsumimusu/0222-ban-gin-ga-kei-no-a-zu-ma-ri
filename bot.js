@@ -3,8 +3,7 @@ const client = new Client ;
 const key = require('./key.json') ;
 const preifx = require('./preifx.json') ;
 //token
-//client.login(process.env.DISCORD_TOKEN);
-client.login(key[222]);
+client.login(process.env.DISCORD_TOKEN);
 client.on('ready',()=>{
     console.log(`${client.user.tag}安ニャーsay yooo~~~`) ;
 }) ;
