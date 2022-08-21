@@ -1,44 +1,12 @@
 const {Client} = require('discord.js') ;
 const client = new Client ;
-const key = require('./key.json') ;
+const key = require('./key') ;
 const preifx = require('./preifx.json') ;
 //token
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.DISCORD_TOKEN_222);
 client.on('ready',()=>{
     console.log(`${client.user.tag}安ニャーsay yooo~~~`) ;
 }) ;
-//身份組
-client.on('messageReactionAdd', (reaction, user) => {
-    const member = reaction.message.guild.members.cache.get(user.id);
-    if (reaction.message.id === '969877193146634271') {
-        switch (reaction.emoji.name) {
-            case '🆓':
-                member.roles.add('965668031114129438')
-                break;
-        }}});
-client.on('messageReactionRemove', (reaction, user) => {
-    const member = reaction.message.guild.members.cache.get(user.id);
-    if (reaction.message.id === '969877193146634271') {
-        switch (reaction.emoji.name) {
-            case '🆓':
-                member.roles.remove('965668031114129438')
-                break;
-        }}});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 client.on('message',msg=>{
     if(msg.content === (`222`)){
         msg.channel.send(`**USER : **${msg.author}我在喔`)
