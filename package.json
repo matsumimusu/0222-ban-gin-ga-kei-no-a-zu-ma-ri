@@ -1,7 +1,6 @@
 {
   "name": "222",
   "version": "1.0.0",
-  "description": "",
   "main": "222.js",
   "scripts": {
     "start": "node ./app.js",
@@ -12,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsumimusu/0222-ban-gin-ga-kei-no-a-zu-ma-ri.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matsumimusu/0222-ban-gin-ga-kei-no-a-zu-ma-ri/issues"
+  },
+  "homepage": "https://github.com/matsumimusu/0222-ban-gin-ga-kei-no-a-zu-ma-ri#readme",
+  "description": ""
 }
