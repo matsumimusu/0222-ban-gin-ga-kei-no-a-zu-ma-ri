@@ -1,6 +1,6 @@
 const {Client} = require('discord.js') ;
 const client = new Client ;
-const key = require('./key.json')
+//const key = require('./key.json')
 const preifx = require('./preifx.json') ;
 //token
 //client.login(key[222])
