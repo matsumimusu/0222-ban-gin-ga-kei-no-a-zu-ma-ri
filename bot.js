@@ -24,7 +24,12 @@ client.on('messageReactionRemove', (reaction, user) => {
                 break;
         }}});
 
-
+bot.api.applications(bot.user.id).commands.post({
+    data: {
+        name: "commandname",
+        description: "Command Description",
+    },
+    });
 
 
 client.on('ready',()=>{
