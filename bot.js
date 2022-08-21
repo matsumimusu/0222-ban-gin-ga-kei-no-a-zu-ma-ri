@@ -5,6 +5,7 @@ const preifx = require('./preifx.json') ;
 
 
 client.login(key[222]);
+client.login(process.env.DISCORD_TOKEN);
 client.on('ready',()=>{
     console.log(`${client.user.tag}安ニャーsay yooo~~~`) ;
 }) ;
